@@ -14,7 +14,7 @@ export_file_url = 'https://drive.google.com/file/d/1QVhVnqDiaKgro82g6qowczvzzJOy
 export_file_name = 'export.pkl'
 
 #classes = ['black', 'grizzly', 'teddys']
-classes = ['apple', 'orange', 'pear', 'lemon','mangoe']
+classes = ['apple','pear','mangoe', 'lemon','orange']
 path = Path(__file__).parent
 
 app = Starlette()
